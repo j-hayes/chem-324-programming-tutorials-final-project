@@ -1,4 +1,5 @@
 using JuliaChem
+using Plots
 include("full_repl.jl")
 
 function run_calculation(input_file)
@@ -8,4 +9,5 @@ function run_calculation(input_file)
     
 end
 run_calculation("water.json")
-  
+random_plot = plot(rand(10,5))
+savefig(random_plot, "randomplot")      

@@ -1,6 +1,5 @@
 using JuliaChem
 using JSON
-using Plots
 include("full_repl.jl")
 
 function start_calculations()
